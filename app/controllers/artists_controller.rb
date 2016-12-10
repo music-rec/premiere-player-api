@@ -13,6 +13,14 @@ class ArtistsController < ApplicationController
     render json: @artist
   end
 
+  # GET /artists/byAlbum/1
+  def by_album
+    album = Album.find(params[:album_id])
+    @artist = album.artist
+
+    render json: @artist
+  end
+
   # POST /artists
   def create
     @artist = Artist.new(artist_params)
@@ -39,13 +47,13 @@ class ArtistsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_artist
-      @artist = Artist.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_artist
+    @artist = Artist.find(params[:id])
+  end
 
-    # Only allow a trusted parameter "white list" through.
-    def artist_params
-      params.require(:artist).permit(:name, :cover, :deleted_at)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def artist_params
+    params.require(:artist).permit(:name, :cover, :deleted_at)
+  end
 end

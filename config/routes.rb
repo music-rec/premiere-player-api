@@ -3,7 +3,7 @@
 Rails.application.routes.draw do
   get '/' => redirect('https://github.com/pedsmoreira/modern-vinyl-player-api')
 
-  resources :songs, only: [:index] do
+  resources :tracks, only: [:index] do
     collection do
       get 'byAlbum/:album_id', action: :by_album
     end
@@ -15,5 +15,9 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :artists, only: [:index, :show]
+  resources :artists, only: [:index, :show] do
+    collection do
+      get 'byAlbum/:album_id', action: :by_album
+    end
+  end
 end

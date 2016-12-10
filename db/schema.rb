@@ -16,13 +16,15 @@ ActiveRecord::Schema.define(version: 20161206222944) do
   enable_extension "plpgsql"
 
   create_table "albums", force: :cascade do |t|
-    t.string   "name",       null: false
-    t.integer  "artist_id",  null: false
+    t.string   "name",        null: false
+    t.integer  "artist_id",   null: false
     t.string   "cover"
+    t.string   "background"
     t.integer  "year"
+    t.text     "description"
     t.datetime "deleted_at"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.index ["artist_id"], name: "index_albums_on_artist_id", using: :btree
     t.index ["deleted_at"], name: "index_albums_on_deleted_at", using: :btree
   end
@@ -36,17 +38,17 @@ ActiveRecord::Schema.define(version: 20161206222944) do
     t.index ["deleted_at"], name: "index_artists_on_deleted_at", using: :btree
   end
 
-  create_table "songs", force: :cascade do |t|
+  create_table "tracks", force: :cascade do |t|
     t.string   "name"
     t.string   "src"
     t.integer  "album_id"
-    t.integer  "position"
+    t.integer  "number"
     t.datetime "deleted_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["album_id"], name: "index_songs_on_album_id", using: :btree
+    t.index ["album_id"], name: "index_tracks_on_album_id", using: :btree
   end
 
   add_foreign_key "albums", "artists"
-  add_foreign_key "songs", "albums"
+  add_foreign_key "tracks", "albums"
 end
