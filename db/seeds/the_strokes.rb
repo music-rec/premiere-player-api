@@ -1,7 +1,9 @@
 artist = Artist.create(
     {
         name: 'The Strokes',
-        cover: 'https://i.scdn.co/image/650a32fcd5fbb68d8db676d33b54b54b4828e255'
+        description: 'The Strokes are an American rock band formed in New York City in 1998, consisting of Julian Casablancas, Nick Valensi, Albert Hammond, Jr., Nikolai Fraiture and Fabrizio Moretti.',
+        cover: 'https://i.scdn.co/image/650a32fcd5fbb68d8db676d33b54b54b4828e255',
+        background: 'http://www.prviprvinaskali.com/pub/article/13993282265637_the_strokes_-_later..._with_jools_holland_2011.jpg'
     })
 
 # The Modern Age
