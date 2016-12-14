@@ -1,6 +1,7 @@
 artist = Artist.create(
     {
         name: 'The Strokes',
+        slug: 'the-strokes',
         description: 'The Strokes are an American rock band formed in New York City in 1998, consisting of Julian Casablancas, Nick Valensi, Albert Hammond, Jr., Nikolai Fraiture and Fabrizio Moretti.',
         cover: 'http://cdn.sonicomusica.com/artists/t/the-strokes/the-strokes-2.jpg',
         background: 'http://www.prviprvinaskali.com/pub/article/13993282265637_the_strokes_-_later..._with_jools_holland_2011.jpg'
@@ -10,6 +11,7 @@ artist = Artist.create(
 artist.albums.create(
     {
         name: 'The Modern Age',
+        slug: 'the-modern-age',
         year: 2001,
         cover: 'https://images-na.ssl-images-amazon.com/images/I/3176FX4JVHL.jpg',
         background: 'https://sugarspunreviews.files.wordpress.com/2015/06/the-strokes-009.jpg',
@@ -25,6 +27,7 @@ artist.albums.create(
 artist.albums.create(
     {
         name: 'Is This It',
+        slug: 'is-this-it',
         year: 2001,
         cover: 'https://upload.wikimedia.org/wikipedia/en/0/09/The_Strokes_-_Is_This_It_cover.png',
         background: 'http://thefader-res.cloudinary.com/images/w_1440,c_limit,f_auto,q_auto:best/STROKES-Ca_sndk7a/the-strokes-cover-story-issue-9.jpg',
@@ -47,6 +50,7 @@ artist.albums.create(
 artist.albums.create(
     {
         name: 'Room On Fire',
+        slug: 'room-on-fire',
         year: 2001,
         cover: 'https://upload.wikimedia.org/wikipedia/en/9/9f/Room_on_Fire_cover.jpg',
         background: 'http://nerdist.com/wp-content/uploads/2016/08/tumblr_static_tumblr_static_cjqgzbt2hvs4ksc0s88o0ss0c_640-970x545.jpg',
@@ -70,6 +74,7 @@ artist.albums.create(
 artist.albums.create(
     {
         name: 'First Impressions of Earth',
+        slug: 'first-impressions-of-earth',
         year: 2006,
         cover: 'https://img.discogs.com/7MqGHkKgDL7p-6J-BXq2BLE9m4M=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-608680-1236643893.jpeg.jpg',
         background: 'https://upload.wikimedia.org/wikipedia/commons/6/65/The_Strokes_by_Roger_Woolman.jpg',
@@ -97,6 +102,7 @@ artist.albums.create(
 artist.albums.create(
     {
         name: 'Angles',
+        slug: 'angles',
         year: 2011,
         cover: 'http://www.clashmusic.com/sites/default/files/styles/article_feature/public/legacy/files/thestrokes-angles.jpg',
         background: 'http://p-gruporpp-media.s3.amazonaws.com/2016/06/01/156233strokesjpg.jpg',
@@ -120,6 +126,7 @@ artist.albums.create(
 artist.albums.create(
     {
         name: 'Comedown Machine',
+        slug: 'comedown-machine',
         year: 2013,
         cover: 'https://upload.wikimedia.org/wikipedia/en/9/91/The_Strokes_-_Comedown_Machine.jpg',
         background: 'https://ludditestereo.files.wordpress.com/2013/03/strokes-bw1.jpeg',
@@ -143,6 +150,7 @@ artist.albums.create(
 artist.albums.create(
     {
         name: 'Future Present Past',
+        slug: 'future-present-past',
         year: 2016,
         cover: 'http://cdn2.pitchfork.com/albums/23331/homepage_large.54ad694d.jpg',
         background: 'http://www.indieaironline.com/wp-content/uploads/2016/05/The-Strokes-Future-Present-Past.jpg',
