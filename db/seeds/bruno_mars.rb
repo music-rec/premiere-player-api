@@ -47,23 +47,6 @@ artist.albums.create(
         {name: 'The Other Side ft. Cee Lo Green', number: 10, src: 'm8Ed8in9Qng'}
     ])
 
-# 24k Magic
-artist.albums.create(
-    {
-        name: '24k Magic',
-        slug: '24k-magic',
-        year: 2016,
-        cover: 'http://static.stereogum.com/uploads/2016/10/600x600bb-1475811565.jpg',
-        background: 'http://www.billboard.com/files/media/Bruno-Mars-press-photo-Credit-Kai-Z-Feng-2016-012a-billboard-1548.jpg',
-        description: '24K Magic is the third studio album by American singer Bruno Mars. It was released on November 18, 2016, by Atlantic Records.',
-    }).tracks.create(
-    [
-        {name: 'That\'s What I Like', number: 1, src: 'mPIm_ZZ0yVw'},
-    {name: 'Straight Up And Down', number: 2, src: '2iAsddrkJSs'},
-    {name: 'Finesse', number: 3, src: 'MRSaiAREnwI'},
-    {name: 'Too Good to Say Goodbay', number: 3, src: 'ihFHCbF6x7I'}
-])
-
 # Unorthodox Jukebox
 artist.albums.create(
     {
@@ -85,4 +68,26 @@ artist.albums.create(
         {name: 'Show Me', number: 8, src: 'RIpzCc7PAlA'},
         {name: 'Money Make Her Smile', number: 9, src: '_czUZiTbwy0'},
         {name: 'If I Knew', number: 10, src: '9YZpng2PL34'}
+    ])
+
+# 24k Magic
+artist.albums.create(
+    {
+        name: '24k Magic',
+        slug: '24k-magic',
+        year: 2016,
+        cover: 'http://static.stereogum.com/uploads/2016/10/600x600bb-1475811565.jpg',
+        background: 'http://www.billboard.com/files/media/Bruno-Mars-press-photo-Credit-Kai-Z-Feng-2016-012a-billboard-1548.jpg',
+        description: '24K Magic is the third studio album by American singer Bruno Mars. It was released on November 18, 2016, by Atlantic Records.',
+    }).tracks.create(
+    [
+        {name: '24K Magic', number: 1, src: 'UqyT8IEBkvY'},
+        {name: 'Chunky', number: 2, src: 'oacaq_1TkMU'},
+        {name: 'Perm', number: 3, src: 'ftXmvnL0ZOc'},
+        {name: 'That\'s What I Like', number: 4, src: 'mPIm_ZZ0yVw'},
+        {name: 'Versace On The Floor', number: 5, src: 'd2UZlwTDGbY'},
+        {name: 'Straight Up & Down', number: 6, src: '2iAsddrkJSs'},
+        {name: 'Calling All My Lovelies', number: 7, src: 'd9a4kB4__rU'},
+        {name: 'Finesse', number: 8, src: 'MRSaiAREnwI'},
+        {name: 'Too Good to Say Goodbay', number: 9, src: 'kjAw3-yq_Bg'}
     ])

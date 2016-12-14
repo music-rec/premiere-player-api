@@ -48,7 +48,7 @@ artist.albums.create(
         slug: 'vamos-arrepiar',
         year: 2000,
         cover: 'https://widget-meo.nmusic.pt/albums/223995/600',
-        background: 'http://www.verdinha.com.br/wp-content/uploads/2014/07/alcione-show-fortaleza.jpg',
+        background: 'http://imguol.com/c/entretenimento/2015/05/28/27mai2015---alcione-volta-ao-terra-da-garoa-no-centro-de-sao-paulo-para-se-apresentar-no-projeto-mpb-na-noite-desta-quarta-feira-1432810061372_956x500.jpg',
         description: 'Album by Alcione, released by RCA Records in February 26, 2010',
     }).tracks.create(
     [
