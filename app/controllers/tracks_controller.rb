@@ -11,7 +11,7 @@ class TracksController < ApplicationController
   # GET /tracks/byAlbum/1
   def by_album
     album = Album.resolve(params[:album_id])
-    @tracks = album.tracks
+    @tracks = album.tracks.order(:number)
 
     render json: @tracks
   end

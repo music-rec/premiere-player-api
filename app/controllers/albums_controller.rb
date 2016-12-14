@@ -11,7 +11,7 @@ class AlbumsController < ApplicationController
   # GET /albums/byArtist/1
   def by_artist
     artist = Artist.resolve(params[:artist_id])
-    @albums = artist.albums
+    @albums = artist.albums.order(:name)
 
     render json: @albums
   end
