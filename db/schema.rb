@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20161206222944) do
 
   create_table "albums", force: :cascade do |t|
     t.string   "name",        null: false
+    t.string   "slug",        null: false
     t.integer  "artist_id",   null: false
     t.string   "cover"
     t.string   "background"
@@ -27,17 +28,20 @@ ActiveRecord::Schema.define(version: 20161206222944) do
     t.datetime "updated_at",  null: false
     t.index ["artist_id"], name: "index_albums_on_artist_id", using: :btree
     t.index ["deleted_at"], name: "index_albums_on_deleted_at", using: :btree
+    t.index ["slug"], name: "index_albums_on_slug", unique: true, using: :btree
   end
 
   create_table "artists", force: :cascade do |t|
-    t.string   "name",       null: false
+    t.string   "name",        null: false
+    t.string   "slug",        null: false
     t.string   "cover"
     t.string   "background"
     t.text     "description"
     t.datetime "deleted_at"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.index ["deleted_at"], name: "index_artists_on_deleted_at", using: :btree
+    t.index ["slug"], name: "index_artists_on_slug", unique: true, using: :btree
   end
 
   create_table "tracks", force: :cascade do |t|

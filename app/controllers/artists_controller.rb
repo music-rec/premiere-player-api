@@ -3,7 +3,7 @@ class ArtistsController < ApplicationController
 
   # GET /artists
   def index
-    @artists = Artist.all
+    @artists = Artist.order(:name)
 
     render json: @artists
   end
@@ -15,7 +15,7 @@ class ArtistsController < ApplicationController
 
   # GET /artists/byAlbum/1
   def by_album
-    album = Album.find(params[:album_id])
+    album = Album.resolve(params[:album_id])
     @artist = album.artist
 
     render json: @artist
@@ -49,7 +49,7 @@ class ArtistsController < ApplicationController
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_artist
-    @artist = Artist.find(params[:id])
+    @artist = Artist.resolve(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.

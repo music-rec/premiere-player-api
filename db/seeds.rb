@@ -6,4 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-require_relative 'seeds/the_strokes'
+Dir[File.dirname(__FILE__) + '/seeds/*.rb'].each do |file|
+  require file
+end
+

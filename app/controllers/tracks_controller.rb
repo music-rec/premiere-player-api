@@ -8,9 +8,9 @@ class TracksController < ApplicationController
     render json: @tracks
   end
 
-  # GET /album/1/tracks
+  # GET /tracks/byAlbum/1
   def by_album
-    album = Album.find(params[:album_id])
+    album = Album.resolve(params[:album_id])
     @tracks = album.tracks
 
     render json: @tracks

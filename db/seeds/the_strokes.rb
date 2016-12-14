@@ -2,7 +2,7 @@ artist = Artist.create(
     {
         name: 'The Strokes',
         description: 'The Strokes are an American rock band formed in New York City in 1998, consisting of Julian Casablancas, Nick Valensi, Albert Hammond, Jr., Nikolai Fraiture and Fabrizio Moretti.',
-        cover: 'https://i.scdn.co/image/650a32fcd5fbb68d8db676d33b54b54b4828e255',
+        cover: 'http://cdn.sonicomusica.com/artists/t/the-strokes/the-strokes-2.jpg',
         background: 'http://www.prviprvinaskali.com/pub/article/13993282265637_the_strokes_-_later..._with_jools_holland_2011.jpg'
     })
 
@@ -136,7 +136,7 @@ artist.albums.create(
         {name: 'Partners In Crime', number: 8, src: 'lSPQWBrcxmA'},
         {name: 'Chances', number: 9, src: 'JCFwEXhz334'},
         {name: 'Happy Ending', number: 10, src: 'VbXcthY4124'},
-        {name: 'Cll It Fate, Call It Karma', number: 11, src: '4LLIJkP301E'}
+        {name: 'Call It Fate, Call It Karma', number: 11, src: '4LLIJkP301E'}
     ])
 
 # Future Present Past
