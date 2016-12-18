@@ -5,7 +5,7 @@ class ArtistsController < ApplicationController
   # GET /album/:album_id/artists
   def index
     if params[:album_id]
-      @artists = Album.resolve(params[:album_id])
+      @artists = Album.resolve(params[:album_id]).artist
     else
       @artists = Artist.order(:name)
     end
