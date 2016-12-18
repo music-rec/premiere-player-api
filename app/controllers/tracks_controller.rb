@@ -2,16 +2,13 @@ class TracksController < ApplicationController
   before_action :set_track, only: [:show, :update, :destroy]
 
   # GET /tracks
+  # GET /albums/:album_id/tracks
   def index
-    @tracks = Track.all
-
-    render json: @tracks
-  end
-
-  # GET /tracks/byAlbum/1
-  def by_album
-    album = Album.resolve(params[:album_id])
-    @tracks = album.tracks.order(:number)
+    if params[:album_id]
+      @tracks = Album.resolve(params[:album_id]).tracks.order(:number)
+    else
+      @tracks = Track.all
+    end
 
     render json: @tracks
   end
@@ -47,13 +44,13 @@ class TracksController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_track
-      @track = Track.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_track
+    @track = Track.find(params[:id])
+  end
 
-    # Only allow a trusted parameter "white list" through.
-    def track_params
-      params.require(:track).permit(:name, :src, :album_id, :deleted_at)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def track_params
+    params.require(:track).permit(:name, :src, :album_id, :deleted_at)
+  end
 end

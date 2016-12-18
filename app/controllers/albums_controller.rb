@@ -2,16 +2,13 @@ class AlbumsController < ApplicationController
   before_action :set_album, only: [:show, :update, :destroy]
 
   # GET /albums
+  # GET /artists/:artist_id/albums
   def index
-    @albums = Album.order(:name)
-
-    render json: @albums
-  end
-
-  # GET /albums/byArtist/1
-  def by_artist
-    artist = Artist.resolve(params[:artist_id])
-    @albums = artist.albums.order(:name)
+    if params[:artist_id]
+      @albums = Artist.resolve(params[:artist_id]).albums.order(:name)
+    else
+      @albums = Album.order(:name)
+    end
 
     render json: @albums
   end
