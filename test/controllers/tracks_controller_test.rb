@@ -1,8 +1,10 @@
 require 'test_helper'
 
 class TracksControllerTest < ActionDispatch::IntegrationTest
+  include FactoryGirl::Syntax::Methods
+
   setup do
-    @track = tracks(:one)
+    @track = create(:track)
   end
 
   test "should get index" do
@@ -10,29 +12,8 @@ class TracksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should create track" do
-    assert_difference('Track.count') do
-      post tracks_url, params: { track: { album_id: @track.album_id, deleted_at: @track.deleted_at, name: @track.name, src: @track.src } }, as: :json
-    end
-
-    assert_response 201
-  end
-
-  test "should show track" do
-    get track_url(@track), as: :json
+  test "should get index by album" do
+    get album_tracks_url(@track.album), as: :json
     assert_response :success
-  end
-
-  test "should update track" do
-    patch track_url(@track), params: { track: { album_id: @track.album_id, deleted_at: @track.deleted_at, name: @track.name, src: @track.src } }, as: :json
-    assert_response 200
-  end
-
-  test "should destroy track" do
-    assert_difference('Track.count', -1) do
-      delete track_url(@track), as: :json
-    end
-
-    assert_response 204
   end
 end

@@ -1,8 +1,10 @@
 require 'test_helper'
 
 class AlbumsControllerTest < ActionDispatch::IntegrationTest
+  include FactoryGirl::Syntax::Methods
+
   setup do
-    @album = albums(:one)
+    @album = create(:album)
   end
 
   test "should get index" do
@@ -10,29 +12,13 @@ class AlbumsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should create album" do
-    assert_difference('Album.count') do
-      post albums_url, params: { album: { artist: @album.artist, cover: @album.cover, deleted_at: @album.deleted_at, name: @album.name, year: @album.year } }, as: :json
-    end
-
-    assert_response 201
+  test "should get index by artist" do
+    get artist_albums_url(@album.artist), as: :json
+    assert_response :success
   end
 
   test "should show album" do
     get album_url(@album), as: :json
     assert_response :success
-  end
-
-  test "should update album" do
-    patch album_url(@album), params: { album: { artist: @album.artist, cover: @album.cover, deleted_at: @album.deleted_at, name: @album.name, year: @album.year } }, as: :json
-    assert_response 200
-  end
-
-  test "should destroy album" do
-    assert_difference('Album.count', -1) do
-      delete album_url(@album), as: :json
-    end
-
-    assert_response 204
   end
 end

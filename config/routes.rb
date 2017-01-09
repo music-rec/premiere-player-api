@@ -1,10 +1,9 @@
 # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
 Rails.application.routes.draw do
-  get '/' => redirect('https://github.com/pedsmoreira/modern-vinyl-player-api')
+  get '/' => redirect('https://github.com/pedsmoreira/premiere-player-api')
 
-  resources :tracks, only: [:index] do
-  end
+  resources :tracks, only: [:index]
 
   resources :albums, only: [:index, :show] do
     resources :tracks, only: [:index]

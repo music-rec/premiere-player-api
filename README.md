@@ -1,6 +1,6 @@
-# Modern Vinyl Player API
+# Premiere Player API
 
-http://modern-vinyl-player-api.herokuapp.com/
+http://premiere-api.herokuapp.com/
 
 ## Description
 
