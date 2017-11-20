@@ -23,13 +23,12 @@ artist.albums.create(
         {name: 'Parece Que o Vento ft. Ivete Sangalo', number: 5, src: 'QRBG7dGfkoE'},
         {name: 'Vou Pagar Pra Ver ft. Xand', number: 6, src: 'DRMzHNxnNIc'},
         {name: 'Escuridão Iluminada ft. Victor & Leo', number: 7, src: 'HPe1SlPay78'},
-        {name: 'Tentativas em Vão ft. Bruno e Marrone', number: 8, src: 'pbNw9ODO4c'},
+        {name: 'Tentativas em Vão ft. Bruno e Marrone', number: 8, src: 'spbNw9ODO4c'},
         {name: 'Sou Outro Pessoa part. Dorgival Dantas', number: 9, src: 'jgnfT2aN4YY'},
         {name: 'Coincidência Não Existe ft. Sorriso Maroto', number: 10, src: 'ApQ2GFZ_aH0'},
         {name: 'Ei Olha o Som ft. Léo Santana', number: 11, src: '9v-cFmDNTJw'},
-        {name: 'Sua Linda ft. Lucas Lucco', number: 12, src: 'frpDUxkzhMo'},
         {name: 'Jeito Safado ft. Márcia Fellipe', number: 13, src: 'KNIOYEmxtcg'},
-        {name: 'Pancadão Frenético ft. Claudia Leitte', number: 14, src: 'JZ5PdJZlfJg'}
+        {name: 'Pancadão Frenético ft. Claudia Leitte', number: 14, src: '3JmNSDIXmZM'}
     ])
 
 # Em Casa
@@ -44,8 +43,8 @@ artist.albums.create(
     [
         {name: 'Vai, Safadão', number: 1, src: 'DrIA-Mbsv98'},
         {name: 'A Dama e o Vagabundo', number: 2, src: 'V3wq9RPgiPg'},
-        {name: 'Pra Ficar Com Você', number: 3, src: 'ifcoiSbWuGI'},
-        {name: 'Tá Cronometrando', number: 4, src: 'rLb6K1DkuRY'},
+        {name: 'Pra Ficar Com Você', number: 3, src: '7dR886fblAM'},
+        {name: 'Tá Cronometrando', number: 4, src: 'Cl5msDbSRBw'},
         {name: 'Solteiro de Novo', number: 5, src: 'I6KGskgarJs'},
         {name: 'Seu Mundinho', number: 6, src: '95TeNOxxnac'},
         {name: 'Meu Coração deu PT', number: 7, src: 'EsWe3GeHb8Y'},
@@ -53,13 +52,13 @@ artist.albums.create(
         {name: 'Chuvisco', number: 9, src: 'UrwnrS_ecBw'},
         {name: 'Jeito Safado', number: 10, src: 'KNIOYEmxtcg'},
         {name: 'Fala Aqui Com a Minha Mão', number: 11, src: 'tItTvA4e6eo'},
-        {name: 'Dupla Solidão', number: 12, src: 'ow8vwoLklQI'},
+        {name: 'Dupla Solidão', number: 12, src: '5BXYLZ6aycE'},
         {name: 'Quem Chorava Hoje Ri', number: 13, src: '-npk067NE1Y'},
-        {name: 'Tem Cara, Tem Cheiro, Tem Nome', number: 14, src: 'fPezzYRO5pk'},
+        {name: 'Tem Cara, Tem Cheiro, Tem Nome', number: 14, src: 'rDfXIzLDEsk'},
         {name: 'Troca o Disco', number: 15, src: 'r-B6jHVVmlg'},
         {name: 'Sou Mais Forte', number: 16, src: 'fJ2qapfteOQ'},
-        {name: 'Absurdos', number: 17, src: 'k_EgstSVF80'},
+        {name: 'Absurdos', number: 17, src: '47ATmkR4iZY'},
         {name: 'Desapega de Mim', number: 18, src: 'ob60K_Tt0DQ'},
-        {name: 'Despedida', number: 19, src: '7zbiwcqBN9I'},
-        {name: 'Viva a Liberdade', number: 20, src: 'rKhmNWROOLQ'}
+        {name: 'Despedida', number: 19, src: 'bRKHLVNlsa4'},
+        {name: 'Viva a Liberdade', number: 20, src: '_AVA0vOj4vc'}
     ])

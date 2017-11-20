@@ -46,7 +46,7 @@ artist.albums.create(
         {name: 'Future People', number: 4, src: 'iraraKH0_Tk'},
         {name: 'Gimme All Your Love', number: 5, src: '-oib0a2_itA'},
         {name: 'This Feeling', number: 6, src: 'Ub6XFO0ca5Q'},
-        {name: 'Guess Who', number: 7, src: 'zPnonYHS_IY'},
+        {name: 'Guess Who', number: 7, src: 'GHl_I8W1xnM'},
         {name: 'The Greatest', number: 8, src: 'cY_hjtW1K-4'},
         {name: 'Shoegaze', number: 9, src: 'md5AvjzNNLk'},
         {name: 'Miss You', number: 10, src: 'NHA2f0hzMTE'},

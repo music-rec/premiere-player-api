@@ -22,7 +22,7 @@ artist.albums.create(
         {name: 'Open Book', number: 4, src: 'CZglPsuXFuk'},
         {name: 'Daria', number: 5, src: 'avjMKjvUicE'},
         {name: 'Race Car Ya-Yas', number: 6, src: 'VHnI_XTQPnE'},
-        {name: 'I Will Survive', number: 7, src: '596qaxm-u4o'},
+        {name: 'I Will Survive', number: 7, src: '7KJjVMqNIgA'},
         {name: 'Stickshifts and Safetybelts', number: 8, src: 'ZpP1yNRo4rE'},
         {name: 'Perhaps Perhaps Perhaps', number: 9, src: 'HWgUBFOCxB0'},
         {name: 'It\'s Coming Down', number: 10, src: '8IQa3tZ5Kz4'},

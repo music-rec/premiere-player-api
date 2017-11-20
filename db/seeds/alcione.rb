@@ -16,9 +16,9 @@ artist.albums.create(
         description: 'Album by Alcione, released by Universal Music (Argentina) in June 15, 2000',
     }).tracks.create(
     [
-        {name: 'Este seu olhar', number: 1, src: '6mziGVBj9yg'},
+        {name: 'Este seu olhar', number: 1, src: 'nuU4HYrYHMQ'},
         {name: 'Nossos momentos', number: 2, src: 'Xfk3F6G_TX0'},
-        {name: 'O poder da criação', number: 3, src: '8wFj0qM'},
+        {name: 'O poder da criação', number: 3, src: '8wFj0qM-ZZc'},
         {name: 'Bar da noite', number: 4, src: 'OD6iToWRq_Y'},
         {name: 'Neste mesmo lugar', number: 5, src: 'FTxZ70txsSQ'},
         {name: 'Última forma', number: 6, src: 'pa5iwrk9xZs'},
@@ -29,7 +29,7 @@ artist.albums.create(
         {name: 'Que sejam bem vindas', number: 11, src: 'DMY8lfIyhso'},
         {name: 'Papel de pão', number: 12, src: '1SgS9mr0RRc'},
         {name: 'Pelo cansaço', number: 13, src: 'a9q0OR31iIo'},
-        {name: 'Olha', number: 14, src: 'a448QqXuAOE'},
+        {name: 'Olha', number: 14, src: 'jX06Kj7gTFQ'},
         {name: 'Pra machucar meu coração', number: 15, src: 'n6cuKkOdIcQ'},
         {name: 'De onde vens', number: 16, src: '_opLjDwsIBw'},
         {name: 'Lamento sertanejo', number: 17, src: 'mjE9pn06jd0'},

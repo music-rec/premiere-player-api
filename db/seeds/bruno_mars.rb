@@ -3,7 +3,7 @@ artist = Artist.create(
         name: 'Bruno Mars',
         slug: 'bruno-mars',
         description: 'Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, multi-instrumentalist, record producer, and choreographer.',
-        cover: 'http://www.rap-up.com/wp-content/uploads/2014/12/bruno-mars.jpg',
+        cover: 'https://vz.cnwimg.com/thumbc-300x300/wp-content/uploads/2010/09/Bruno-Mars-e1500395983340.jpg',
     })
 
 # It's Better If You Don't Understand
@@ -18,7 +18,7 @@ artist.albums.create(
     [
         {name: 'Somewhere in Brooklyn', number: 1, src: 'Zcnf06coZm0'},
         {name: 'The Other Side', number: 2, src: 'm8Ed8in9Qng'},
-        {name: 'Count On Me', number: 3, src: 'zvnaluRm5p8'},
+        {name: 'Count On Me', number: 3, src: 'o8pAIO3CPBY'},
         {name: 'Talking To The Moon', number: 4, src: '_BTlp77Eb8E'}
     ])
 
@@ -40,7 +40,7 @@ artist.albums.create(
         {name: 'Marry You', number: 6, src: 'Ykgxgmd0moM'},
         {name: 'Talking To The Moon', number: 7, src: '_BTlp77Eb8E'},
         {name: 'Liquor Store Blues', number: 8, src: '1iBm60uJXvs'},
-        {name: 'Count On Me', number: 9, src: 'zvnaluRm5p8'},
+        {name: 'Count On Me', number: 9, src: 'o8pAIO3CPBY'},
         {name: 'The Other Side ft. Cee Lo Green', number: 10, src: 'm8Ed8in9Qng'}
     ])
 
@@ -82,7 +82,7 @@ artist.albums.create(
         {name: 'That\'s What I Like', number: 4, src: 'mPIm_ZZ0yVw'},
         {name: 'Versace On The Floor', number: 5, src: 'd2UZlwTDGbY'},
         {name: 'Straight Up & Down', number: 6, src: '2iAsddrkJSs'},
-        {name: 'Calling All My Lovelies', number: 7, src: 'd9a4kB4__rU'},
+        {name: 'Calling All My Lovelies', number: 7, src: 'gxm9Aws6gCs'},
         {name: 'Finesse', number: 8, src: 'MRSaiAREnwI'},
         {name: 'Too Good to Say Goodbay', number: 9, src: 'kjAw3-yq_Bg'}
     ])

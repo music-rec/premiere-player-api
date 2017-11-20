@@ -3,7 +3,7 @@ artist = Artist.create(
         name: 'A Banda do Mar',
         slug: 'a-banda-do-mar',
         description: 'Banda do Mar is a Portuguese Brazilian band announced in May 2014 by Marcelo Camelo, his wife Mallu Magalhães and Fred Ferreira. The name of the band is Portuguese for "Band from the Sea".',
-        cover: 'http://blog.opovo.com.br/entreaspas/wp-content/uploads/sites/74/2015/03/banda-do-mar.jpeg',
+        cover: 'https://images.sk-static.com/images/media/profile_images/artists/8292628/huge_avatar',
     })
 
 # Banda do Mar

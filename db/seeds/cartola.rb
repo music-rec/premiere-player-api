@@ -25,7 +25,7 @@ artist.albums.create(
         {name: 'Alvorada', number: 7, src: 'QFfwRYf3YzE'},
         {name: 'Festa da Vinda', number: 8, src: 'su9X0UHNtVE'},
         {name: 'Quem Me Vê Sorrindo', number: 9, src: 'i9pKMEEUghM'},
-        {name: 'Amor Proibido', number: 10, src: 'Csv80fgSDRc'},
+        {name: 'Amor Proibido', number: 10, src: 'SHISiaSeD_I'},
         {name: 'Ordenes e Farei', number: 11, src: '5DIdkD9DEeA'},
         {name: 'Aletria', number: 12, src: 'u29s5lNRVE0'}
     ])
