@@ -3,7 +3,7 @@ artist = Artist.create(
         name: 'Djavan',
         slug: 'djavan',
         description: 'Djavan is a Brazilian singer/songwriter. Djavan combines traditional Brazilian rhythms with popular music drawn from the Americas, Europe and Africa.',
-        cover: 'https://yt3.ggpht.com/-742Wt_BT4e8/AAAAAAAAAAI/AAAAAAAAAAA/LXtp9bQBhso/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
+        cover: 'http://lyricstranslate-f2sqfo9.stackpathdns.com/files/styles/large/public/djavan.jpg?itok=HzMXQWzV',
     })
 
 # Seduzir
