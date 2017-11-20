@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'a-banda-do-mar',
         description: 'Banda do Mar is a Portuguese Brazilian band announced in May 2014 by Marcelo Camelo, his wife Mallu Magalhães and Fred Ferreira. The name of the band is Portuguese for "Band from the Sea".',
         cover: 'http://blog.opovo.com.br/entreaspas/wp-content/uploads/sites/74/2015/03/banda-do-mar.jpeg',
-        background: 'http://www.correiodopovo.com.br/blogs/maispreza/wp-content/uploads/2014/08/Banda-do-Mar.jpg'
     })
 
 # Banda do Mar
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'a-banda-do-mar',
         year: 2014,
         cover: 'https://s2.vagalume.com/banda-do-mar/discografia/banda-do-mar-W320.jpg',
-        background: 'http://www.territoriodamusica.com/_fotos/noticias/2014/09/37155_250914_1155_g.jpg',
         description: 'Banda do Mar is the first album of Luso-Brazilian band Banda do Mar was released for digital download on August 5, 2014 under the seal of Sony Music. The album physical version was released on 5 September 2014.',
     }).tracks.create(
     [

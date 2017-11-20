@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'cake',
         description: 'Cake (stylized CAKE) is an American alternative rock band from Sacramento, California. Consisting of singer John McCrea, trumpeter Vince DiFiore, guitarist Xan McCurdy, bassist Gabe Nelson and drummer Paulo Baldi, the band has been noted for McCrea\'s sarcastic lyrics and monotone vocals, DiFiore\'s trumpet parts, and their wide-ranging musical influences, including country music, Mariachi, rock, funk, Iranian folk music and hip hop.',
         cover: 'https://meijergardens.files.wordpress.com/2014/03/cake_blog.jpg',
-        background: 'http://first-avenue.com/sites/default/files/images/events/Cake_Band-sq_web.jpg'
     })
 
 # Fashion Nugget
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'fashion-nugget',
         year: 1996,
         cover: 'http://ecx.images-amazon.com/images/I/51NzOtdFIiL.jpg',
-        background: 'https://static.omelete.uol.com.br/legacy/images/galerias/LollapaloozaBrasil2013/Cake-Lollapalooza-2013-1.jpg',
         description: 'Fashion Nugget is the second studio album by Cake, an alternative rock band from Sacramento, California. It was released in 1996, and contains 14 songs. "The Distance" became one of the band\'s biggest hits.',
     }).tracks.create(
     [

@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'safadao',
         description: 'Wesley Oliveira da Silva, also known as Wesley Safadão, is a Brazilian singer, songwriter, producer and businessman.',
         cover: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Wesley_Safad%C3%A3o_em_1%C2%BA_de_fevereiro_de_2016.png',
-        background: 'http://s2.glbimg.com/XmaPdpgsUqWq6xpU8wazg-Krvic=/0x0:690x400/690x0/s.glbimg.com/et/gs/f/original/2015/12/04/21.jpg'
     })
 
 # Duetos
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'safadao-duetos',
         year: 2016,
         cover: 'https://lh3.googleusercontent.com/-1Y6v4eBGl2g/V5F4OuRNnHI/AAAAAAAAFA4/wI8rbe5v4FMje7H1Qzn0JoL-Dp5aizzPwCLcB/s600/cover1400x1400.jpeg',
-        background: 'http://festpara.com.br/wp-content/uploads/2016/07/2b2891c84c257b621bd04cd0d711a950.jpg',
         description: 'Live album with special participations by Wesley Safadao, released by Som Livre in July 22, 2016',
     }).tracks.create(
     [
@@ -41,7 +39,6 @@ artist.albums.create(
         slug: 'em-casa',
         year: 2016,
         cover: 'http://www.sertanejodiario.com/wp-content/uploads/2016/09/CD-Wesley-Safad%C3%A3o-Em-Casa-Ao-Vivo-2016.jpg',
-        background: 'http://blogs.diariodonordeste.com.br/puxaofole/wp-content/uploads/2015/04/wesley.jpg',
         description: 'Live album by Wesley Safadao, released by Som Livre in September 16, 2016',
     }).tracks.create(
     [

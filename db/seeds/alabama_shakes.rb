@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'alabama-shakes',
         description: 'Alabama Shakes is an American blues rock band formed in Athens, Alabama in 2009. The band currently consists of lead singer and guitarist Brittany Howard, guitarist Heath Fogg, bassist Zac Cockrell, and drummer Steve Johnson.',
         cover: 'https://pbs.twimg.com/profile_images/753981263292137472/fgTaNSC6.jpg',
-        background: 'https://media.npr.org/assets/img/2015/04/17/alabamashakes_wide-65f27964d8510cf118377d4eebbb94f9b5e5fdef.jpg?s=1400'
     })
 
 # Boys & Girls
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'boys-and-girls',
         year: 2012,
         cover: 'http://cdn.pitchfork.com/albums/17641/homepage_large.1ff98911.jpg',
-        background: 'http://ksassets.timeincuk.net/wp/uploads/sites/55/2015/06/2015AlabamaShakes_EM_040615.hero_.jpg',
         description: 'Boys & Girls is the debut studio album from American rock band Alabama Shakes. It was released on April 9, 2012. The album peaked at number 6 on the U.S. Billboard 200 and number 3 on the UK Albums Chart.',
     }).tracks.create(
     [
@@ -39,7 +37,6 @@ artist.albums.create(
         slug: 'sound-and-color',
         year: 2015,
         cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Alabama_Shakes_-_Sound_%26_Color_album_cover.jpg/220px-Alabama_Shakes_-_Sound_%26_Color_album_cover.jpg',
-        background: 'http://diymag.com/media/img/Artists/A/Alabama_Shakes/_1500x1000_crop_center-center_75/alabamashakes_20150424_2047x1365_4.jpg',
         description: 'Sound & Color is the second studio album by American rock band Alabama Shakes. It was released on April 21, 2015 via ATO Records, MapleMusic Recordings and Rough Trade Records.',
     }).tracks.create(
     [

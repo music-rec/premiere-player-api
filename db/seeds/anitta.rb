@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'anitta',
         description: 'Larissa de Macedo Machado, known by her stage name Anitta, is a Brazilian recording artist, songwriter, and dancer.',
         cover: 'https://lh5.ggpht.com/EswQpNpLhWzUPWYcTITw1gxm4ZCOMu17RmrVfLkMc9oDg5lEjl02WEpFHzU-_9IjH84=w300',
-        background: 'http://www.lateleseguncaamano.com/wp-content/uploads/2016/08/anitta01.jpg'
     })
 
 # Anitta
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'anitta',
         year: 2013,
         cover: 'http://asdfg-menezes.org/aw2013albumnac.jpg',
-        background: 'http://www.contrateartistas.com.br/upload/artist/image_5825d2b44e9fe.jpg',
         description: 'Anitta is the debut studio album by Brazilian recording artist Anitta, released on July 3, 2013 by Warner Music. It was preceded by four singles including "Show das Poderosas" which was the biggest song in Brazil in 2013.',
     }).tracks.create(
     [
@@ -40,7 +38,6 @@ artist.albums.create(
         slug: 'ritmo-perfeito',
         year: 2014,
         cover: 'https://upload.wikimedia.org/wikipedia/pt/thumb/1/1b/Anitta_-_Ritmo_Perfeito.png/220px-Anitta_-_Ritmo_Perfeito.png',
-        background: 'http://blogs.odia.ig.com.br/leodias/files/2015/11/ANITTA.jpg',
         description: 'Ritmo Perfeito is the second studio album by Brazilian recording artist Anitta, released on Juny 3, 2014 by Warner Music. While her first album focused on electropop and pop, most of Ritmos Perfeito\'s tracks are acoustic guitar driven songs.',
     }).tracks.create(
     [
@@ -62,7 +59,6 @@ artist.albums.create(
         slug: 'bang',
         year: 2015,
         cover: 'https://upload.wikimedia.org/wikipedia/pt/4/43/Capa_de_Bang.jpg',
-        background: 'http://rd1.com.br/wp-content/uploads/2016/02/banganitta.jpg',
         description: 'Bang is the third studio album by Brazilian singer Anitta, released on October 13, 2015 by Warner Music Group. The album contains 14 new songs plus an acoustic version of the single "Deixa Ele Sofrer".',
     }).tracks.create(
     [

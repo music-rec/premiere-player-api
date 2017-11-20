@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'cartola',
         description: 'Angenor de Oliveira, known as Cartola, was a Brazilian singer, composer and poet considered to be a major figure in the development of samba. Cartola composed, alone or with partners, more than 500 songs.',
         cover: 'http://2.bp.blogspot.com/-WdIndmlS8EI/VSIBGF1bR4I/AAAAAAABDwk/AMbYaB014ZM/s1600/Cartola%2B(Capa).jpg',
-        background: 'http://www.mag360.com.br/wp-content/uploads/2016/09/cartola.jpg'
     })
 
 # Cartola
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'cartola',
         year: 1974,
         cover: 'http://w45rotacoes.hospedagemdesites.ws/wp-content/uploads/2016/03/cartola-1974.jpg',
-        background: 'https://i.ytimg.com/vi/3sLaIcAEFs8/maxresdefault.jpg',
         description: 'Album by Cartola, released in 1974 by Discos Marcus Pereira',
     }).tracks.create(
     [
@@ -39,7 +37,6 @@ artist.albums.create(
         slug: 'cartola-ii',
         year: 1976,
         cover: 'https://discosdesamba.files.wordpress.com/2015/04/capa2.jpg',
-        background: 'http://www.bombatomica.com.br/wp-content/uploads/2016/09/cartola.jpg',
         description: 'Album by Cartola, released in 1976 by Discos Marcus Pereira',
     }).tracks.create(
     [

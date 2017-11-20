@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'daft-punk',
         description: 'Daft Punk are a French electronic music duo formed in 1993 by Guy-Manuel de Homem-Christo and Thomas Bangalter.',
         cover: 'https://img.discogs.com/9V_KJnY2yu9bjss6JwwrAlIpMPM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-1289-1432228655-5272.jpeg.jpg',
-        background: 'https://www.grammy.com/files/styles/hero/public/artists/465500137.jpg?itok=C4cEGRNW'
     })
 
 # Discovery
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'discovery',
         year: 2001,
         cover: 'https://upload.wikimedia.org/wikipedia/en/a/ae/Daft_Punk_-_Discovery.jpg',
-        background: 'http://img.wennermedia.com/social/rs-220132-DAFTPUNKUNCHAINED_3428333_UN_01.jpg',
         description: 'Discovery is the second studio album by the French electronic music duo Daft Punk, released on 26 February 2001 by Virgin Records. ',
     }).tracks.create(
     [
@@ -41,7 +39,6 @@ artist.albums.create(
         slug: 'human-after-all',
         year: 2005,
         cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Humanafterall.jpg/220px-Humanafterall.jpg',
-        background: 'http://dietradio.fm/wp-content/uploads/2014/08/daft-2006.jpg',
         description: 'Human After All is the third studio album by the French electronic music duo Daft Punk, released on 14 March 2005 internationally and a day later in the United States by Virgin Records.',
     }).tracks.create(
     [
@@ -64,7 +61,6 @@ artist.albums.create(
         slug: 'tron-legacy',
         year: 2010,
         cover: 'https://images-na.ssl-images-amazon.com/images/I/41Tfi%2Bkn1-L.jpg',
-        background: 'https://media.npr.org/assets/img/2012/05/08/daftpunktron_wide-a0292e194e99729cf3d6a302f88ef1b7dead7b09.jpg?s=1400',
         description: 'Tron: Legacy is the soundtrack album to the 2010 film of the same name, released by Walt Disney Records on December 3, 2010. It is the first film score by French music duo Daft Punk.',
     }).tracks.create(
     [
@@ -100,7 +96,6 @@ artist.albums.create(
         slug: 'random-access-memories',
         year: 2013,
         cover: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg',
-        background: 'http://www.billboard.com/files/media/daft-punk-2013-650-430-b.jpg',
         description: 'Random Access Memories is the fourth studio album by the French electronic music duo Daft Punk, released on 17 May 2013 by the duo\'s imprint Daft Life and Columbia Records.',
     }).tracks.create(
     [

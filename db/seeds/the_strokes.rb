@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'the-strokes',
         description: 'The Strokes are an American rock band formed in New York City in 1998, consisting of Julian Casablancas, Nick Valensi, Albert Hammond, Jr., Nikolai Fraiture and Fabrizio Moretti.',
         cover: 'http://cdn.sonicomusica.com/artists/t/the-strokes/the-strokes-2.jpg',
-        background: 'http://www.prviprvinaskali.com/pub/article/13993282265637_the_strokes_-_later..._with_jools_holland_2011.jpg'
     })
 
 # The Modern Age
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'the-modern-age',
         year: 2001,
         cover: 'https://images-na.ssl-images-amazon.com/images/I/3176FX4JVHL.jpg',
-        background: 'https://sugarspunreviews.files.wordpress.com/2015/06/the-strokes-009.jpg',
         description: 'The Modern Age is the debut EP by garage rock band The Strokes. It was released on January 29, 2001 in the United Kingdom and May 22, 2001 in the United States, sparking a bidding war among record labels; the largest for a rock band in years.',
     }).tracks.create(
     [
@@ -30,7 +28,6 @@ artist.albums.create(
         slug: 'is-this-it',
         year: 2001,
         cover: 'https://upload.wikimedia.org/wikipedia/en/0/09/The_Strokes_-_Is_This_It_cover.png',
-        background: 'http://thefader-res.cloudinary.com/images/w_1440,c_limit,f_auto,q_auto:best/STROKES-Ca_sndk7a/the-strokes-cover-story-issue-9.jpg',
         description: 'Is This It is the debut studio album by the American rock band the Strokes. Recorded at Transporterraum in New York City with producer Gordon Raphael, the album was first released on July 30, 2001, in Australia, with RCA Records as the primary label.'
     }).tracks.create(
     [
@@ -53,7 +50,6 @@ artist.albums.create(
         slug: 'room-on-fire',
         year: 2001,
         cover: 'https://upload.wikimedia.org/wikipedia/en/9/9f/Room_on_Fire_cover.jpg',
-        background: 'http://nerdist.com/wp-content/uploads/2016/08/tumblr_static_tumblr_static_cjqgzbt2hvs4ksc0s88o0ss0c_640-970x545.jpg',
         description: 'Room on Fire is the second studio album by the American rock band The Strokes. Released in October 2003, the album follows 2001\'s Is This It and includes three singles: "12:51", "Reptilia", and "The End Has No End."'
     }).tracks.create(
     [
@@ -77,7 +73,6 @@ artist.albums.create(
         slug: 'first-impressions-of-earth',
         year: 2006,
         cover: 'https://img.discogs.com/7MqGHkKgDL7p-6J-BXq2BLE9m4M=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-608680-1236643893.jpeg.jpg',
-        background: 'https://upload.wikimedia.org/wikipedia/commons/6/65/The_Strokes_by_Roger_Woolman.jpg',
         description: 'First Impressions of Earth is the third studio album by the American rock band the Strokes. It was released on January 3, 2006, through RCA Records, having been preceded by lead single "Juicebox" some weeks earlier.'
     }).tracks.create(
     [
@@ -105,7 +100,6 @@ artist.albums.create(
         slug: 'angles',
         year: 2011,
         cover: 'http://www.clashmusic.com/sites/default/files/styles/article_feature/public/legacy/files/thestrokes-angles.jpg',
-        background: 'http://p-gruporpp-media.s3.amazonaws.com/2016/06/01/156233strokesjpg.jpg',
         description: 'Angles is the fourth studio album by the American rock band the Strokes, released on March 18, 2011 by RCA Records. It is their first album since First Impressions of Earth, their longest gap to date between studio albums.'
     }).tracks.create(
     [
@@ -129,7 +123,6 @@ artist.albums.create(
         slug: 'comedown-machine',
         year: 2013,
         cover: 'https://upload.wikimedia.org/wikipedia/en/9/91/The_Strokes_-_Comedown_Machine.jpg',
-        background: 'https://ludditestereo.files.wordpress.com/2013/03/strokes-bw1.jpeg',
         description: 'Comedown Machine is the fifth studio album by the American indie rock band The Strokes. It was released on March 26, 2013 in the US, and on March 25 in the UK.'
     }).tracks.create(
     [
@@ -153,7 +146,6 @@ artist.albums.create(
         slug: 'future-present-past',
         year: 2016,
         cover: 'http://cdn2.pitchfork.com/albums/23331/homepage_large.54ad694d.jpg',
-        background: 'http://www.indieaironline.com/wp-content/uploads/2016/05/The-Strokes-Future-Present-Past.jpg',
         description: 'Future Present Past is the second EP by American band The Strokes, released on June 3, 2016 through Cult Records. The title represents each song: "Drag Queen" refers to the "future", "OBLIVIUS" – the "present", and "Threat of Joy" – the "past".'
     }).tracks.create(
     [

@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'alcione',
         description: 'Alcione Dias Nazareth is also known as, "Alcione", and "A Marrom" and is one of the most successful female samba singers, or sambistas, in Brazil.',
         cover: 'http://imguol.com/c/entretenimento/61/2016/01/03/alcione-participa-do-domingao-do-faustao-1451861300809_300x300.jpg',
-        background: 'http://og.infg.com.br/in/19200098-720-564/FT1086A/globo-6ph905vlu1ecgez7mex_original.jpg'
     })
 
 # Nos Bares da Vida
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'nos-bares-da-vida',
         year: 2012,
         cover: 'https://s2.vagalume.com/alcione/discografia/nos-bares-da-vida-ao-vivo-W320.jpg',
-        background: 'http://s.glbimg.com/jo/eg/f/original/2016/01/27/img_1889.jpg',
         description: 'Album by Alcione, released by Universal Music (Argentina) in June 15, 2000',
     }).tracks.create(
     [
@@ -48,7 +46,6 @@ artist.albums.create(
         slug: 'vamos-arrepiar',
         year: 2000,
         cover: 'https://widget-meo.nmusic.pt/albums/223995/600',
-        background: 'http://imguol.com/c/entretenimento/2015/05/28/27mai2015---alcione-volta-ao-terra-da-garoa-no-centro-de-sao-paulo-para-se-apresentar-no-projeto-mpb-na-noite-desta-quarta-feira-1432810061372_956x500.jpg',
         description: 'Album by Alcione, released by RCA Records in February 26, 2010',
     }).tracks.create(
     [

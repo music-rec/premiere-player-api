@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'bruno-mars',
         description: 'Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, multi-instrumentalist, record producer, and choreographer.',
         cover: 'http://www.rap-up.com/wp-content/uploads/2014/12/bruno-mars.jpg',
-        background: 'http://www.officialcharts.com/imagegen.ashx?image=/media/318012/bruno_mars_2012.jpg&width=796'
     })
 
 # It's Better If You Don't Understand
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'its-better-if-you-dont-understand',
         year: 2010,
         cover: 'https://upload.wikimedia.org/wikipedia/en/b/ba/Bruno-mars-ep-cover.jpg',
-        background: 'http://images.boomsbeat.com/data/images/full/1098/bruno1-jpg.jpg',
         description: 'It\'s Better If You Don\'t Understand is the debut extended play by American singer Bruno Mars. Its title comes from the final lyrics of one of its songs, "The Other Side".',
     }).tracks.create(
     [
@@ -31,7 +29,6 @@ artist.albums.create(
         slug: 'doo-wops-and-hooligans',
         year: 2010,
         cover: 'https://upload.wikimedia.org/wikipedia/en/a/af/Doo-Wops_%26_Hooligans.jpg',
-        background: 'http://cdn1.thr.com/sites/default/files/2014/01/bruno_mars_nfl_h_2014.jpg',
         description: 'Doo-Wops & Hooligans is the debut studio album by American singer Bruno Mars. It was released on October 4, 2010, by Atlantic Records and Elektra Records.',
     }).tracks.create(
     [
@@ -54,7 +51,6 @@ artist.albums.create(
         slug: 'unorthodox-jukebox',
         year: 2012,
         cover: 'https://upload.wikimedia.org/wikipedia/en/7/77/BrunoMarsUJAlbumCover.png',
-        background: 'http://www.billboard.com/files/media/bruno-mars-2012-billboard-1548-650.jpg',
         description: 'Unorthodox Jukebox is the second studio album by American singer and songwriter Bruno Mars. It was released on December 7, 2012, by Atlantic Records. It serves as the follow-up to Mars\' debut record Doo-Wops & Hooligans.',
     }).tracks.create(
     [
@@ -77,7 +73,6 @@ artist.albums.create(
         slug: '24k-magic',
         year: 2016,
         cover: 'http://static.stereogum.com/uploads/2016/10/600x600bb-1475811565.jpg',
-        background: 'http://www.billboard.com/files/media/Bruno-Mars-press-photo-Credit-Kai-Z-Feng-2016-012a-billboard-1548.jpg',
         description: '24K Magic is the third studio album by American singer Bruno Mars. It was released on November 18, 2016, by Atlantic Records.',
     }).tracks.create(
     [

@@ -4,7 +4,6 @@ class CreateArtists < ActiveRecord::Migration[5.0]
       t.string :name, null: false
       t.string :slug, null: false
       t.string :cover
-      t.string :background
       t.text :description
       t.datetime :deleted_at
 

@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 20161206222944) do
     t.string   "slug",        null: false
     t.integer  "artist_id",   null: false
     t.string   "cover"
-    t.string   "background"
     t.integer  "year"
     t.text     "description"
     t.datetime "deleted_at"
@@ -35,7 +34,6 @@ ActiveRecord::Schema.define(version: 20161206222944) do
     t.string   "name",        null: false
     t.string   "slug",        null: false
     t.string   "cover"
-    t.string   "background"
     t.text     "description"
     t.datetime "deleted_at"
     t.datetime "created_at",  null: false
@@ -47,7 +45,7 @@ ActiveRecord::Schema.define(version: 20161206222944) do
   create_table "tracks", force: :cascade do |t|
     t.string   "name"
     t.string   "src"
-    t.integer  "album_id"
+    t.integer  "album_id",   null: false
     t.integer  "number"
     t.datetime "deleted_at"
     t.datetime "created_at", null: false

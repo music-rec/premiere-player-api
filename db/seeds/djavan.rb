@@ -4,7 +4,6 @@ artist = Artist.create(
         slug: 'djavan',
         description: 'Djavan is a Brazilian singer/songwriter. Djavan combines traditional Brazilian rhythms with popular music drawn from the Americas, Europe and Africa.',
         cover: 'https://yt3.ggpht.com/-742Wt_BT4e8/AAAAAAAAAAI/AAAAAAAAAAA/LXtp9bQBhso/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
-        background: 'http://imguol.com/c/entretenimento/cd/2015/11/13/o-cantor-djavan-que-esta-lancando-vidas-pra-contar-vigesimo-terceiro-disco-da-carreira-1447460684980_615x470.jpg'
     })
 
 # Seduzir
@@ -14,7 +13,6 @@ artist.albums.create(
         slug: 'seduzir',
         year: 1981,
         cover: 'https://c3.staticflickr.com/5/4073/4858567986_06dcd88ca4_b.jpg',
-        background: 'http://www.suasletras.com/fotos_artista/a253d34e9221ab60342f0cb9b83ba8b5.jpg',
         description: 'Album by Djavan, released by EMI Brazil in May, 1981',
     }).tracks.create(
     [
@@ -37,7 +35,6 @@ artist.albums.create(
         slug: 'aria',
         year: 2010,
         cover: 'https://s2.vagalume.com/djavan/discografia/aria-W320.jpg',
-        background: 'http://www.radiosatfm.com.br/blogue/wp-content/uploads/2015/11/DJAVAN.jpg',
         description: 'Album by Djavan, released by Biscoito Fino in 2010. Ária is the winner of the Latin Grammy Award for Best MPB Album',
     }).tracks.create(
     [
